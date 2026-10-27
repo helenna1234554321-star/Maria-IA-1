@@ -1,0 +1,20 @@
+MARIA IA — PROJETO ANDROID 1.0 (CÓDIGO-FONTE)
+
+Este ZIP NÃO é um APK. Para gerar um APK, abra o projeto em um ambiente com Android SDK e Gradle (por exemplo Android Studio ou uma compilação CI).
+
+Recursos implementados:
+- Tela com imagem da Maria
+- Botão para iniciar o reconhecimento de voz do Android
+- Resposta falada usando TextToSpeech do Android
+- Entrada de texto
+- Comando "Ok Maria"
+- Guardar, consultar e apagar uma anotação local
+- Consultar horário
+
+Limitações:
+- O microfone é ativado ao tocar no botão. Não há escuta contínua nem com tela apagada.
+- Sem integração com IA online, sem animação do rosto, sem abertura de outros apps.
+- Reconhecimento de voz depende de serviço instalado no Android; offline não é garantido.
+- Memória local simples, sem criptografia específica e sem sincronização.
+
+Compilação: instale Android Studio, abra a pasta MariaIA, sincronize Gradle e use Build > Build APK(s). Ou configure um workflow de compilação Android em um repositório privado.
